@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: rgb(230, 230, 230);
+    padding: 20px;
+}
+
+.contner {
+    margin: 0 auto;
+    padding: 20px;
+    width: 600px;
+    background-color: white;
+    box-shadow: 0 0 6px 0 rgb(150, 150, 150);
+    border-radius: 6px;
+}
+
+.btn {
+    font-size: 14px;
+    color: white;
+    line-height: 100%;
+    border: none;
+    background-color: rgb(73, 73, 73);
+    padding: 6px 10px;
+    border-radius: 3px;
+    opacity: 0.7;
+    margin-right: 10px;
+    /* margin-top: 20px; */
+}
+
+.btn:hover {
+    opacity: 1;
+    transition: 0.1s
+}
+
+.page_title {
+    font-size: 24px;
+    background-color: rgb(220, 220, 220);
+    padding: 3px 10px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.label {
+    font-size: 14px;
+}
+
+.label-group {
+    margin: 6px 0px;
+    display: flex;
+}
+
+.event-group {
+    flex: auto;
+    width: 70%;
+    margin-right: 20px;
+}
+
+.date-group {
+    flex: auto;
+    width: 30%;
+}
+
+.memo-group {
+    flex: auto;
+    width: 100%;
+}
+
+.event_input {
+    padding: 0px 10px;
+    height: 30px;
+    width: 100%;
+}
+
+.date_input {
+    padding: 0px 10px;
+    height: 30px;
+    width: 100%;
+}
+
+.memo-textarea {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    height: 100px;
+    padding: 6px 10px;
+}
+
+
+/* //////////////////////////// */
+
+.score-group {
+    background-color: rgb(230, 230, 230);
+    padding: 8px 12px;
+    border-radius: 6px;
+    margin: 15px 0px;
+}
+
+.subject-group {
+    display: flex;
+}
+
+.subject-group>*:not(:last-child) {
+    margin-right: 12px;
+}
+
+.subject {
+    flex: auto;
+    width: 100%;
+}
+
+.score-input {
+    height: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+/* //////////////////////////// */
+
+.error-group {
+    color: red;
+    background-color: rgb(255, 220, 220);
+    margin: 20px 0px 15px 0px;
+    border-radius: 6px;
+    padding: 8px 12px;
+}
+
+/* //////////////////////////// */
+
+
+/* //////////////////////////// */
+
+.button-group {
+    margin-top: 20px;
+    display: flex;
+}

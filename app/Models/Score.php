@@ -9,9 +9,10 @@ class Score extends Model
 {
     use HasFactory;
 
-    protected $dates = [
-        'date'
-    ];
+    public function getDateFormatAttribute()
+    {
+        return date('Y年m月d日', strtotime($this->date));
+    }
 
     public function getTotalScoreAttribute()
     {
