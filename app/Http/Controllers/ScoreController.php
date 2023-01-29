@@ -10,7 +10,9 @@ class ScoreController extends Controller
 {
     public function index()
     {
-        $scores = Score::all();
+        // $scores = Score::all();
+        $scores = Score::orderBy('date', 'desc')->latest()->get();
+
         return view('scores.index', ['scores' => $scores]);
     }
 

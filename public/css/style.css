@@ -14,11 +14,14 @@ li {
 
 body {
     background-color: rgb(230, 230, 230);
-    padding: 20px;
+}
+
+.clear {
+    clear: both;
 }
 
 .contner {
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 20px;
     width: 600px;
     background-color: white;
@@ -78,18 +81,22 @@ body {
 }
 
 .event_input {
+    font-size: 14px;
     padding: 0px 10px;
     height: 30px;
     width: 100%;
 }
 
 .date_input {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
     padding: 0px 10px;
     height: 30px;
     width: 100%;
 }
 
 .memo-textarea {
+    font-size: 14px;
     font-family: Arial, sans-serif;
     width: 100%;
     height: 100px;
@@ -120,6 +127,7 @@ body {
 }
 
 .score-input {
+    font-size: 16px;
     height: 30px;
     width: 100%;
     text-align: center;
@@ -141,6 +149,6 @@ body {
 /* //////////////////////////// */
 
 .button-group {
-    margin-top: 20px;
     display: flex;
+    float: left;
 }

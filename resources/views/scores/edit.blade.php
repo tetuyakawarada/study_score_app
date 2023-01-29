@@ -183,16 +183,19 @@
                 </div>
                 <a class="btn" href="/scores/{{ $score->id }}">詳細へ戻る</a>
                 <a class="btn" href="{{ route('scores.index') }}">一覧へ戻る</a>
-
-                <form action="/scores/{{ $score->id }}" method="post">
-                    @csrf
-                    @method('DELETE')
-                    <input class="btn" type="submit" value="削除"
-                        onclick="if(!confirm('削除しますか？')){return false};">
-                </form>
-
             </div>
+
         </form>
+
+        <div class="">
+            <form action="/scores/{{ $score->id }}" method="post">
+                @csrf
+                @method('DELETE')
+                <input class="btn" type="submit" value="削除"
+                    onclick="if(!confirm('削除しますか？')){return false};">
+            </form>
+        </div>
+
     </div>
 
 
