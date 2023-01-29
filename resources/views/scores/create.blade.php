@@ -180,6 +180,7 @@
                 <input class="btn" type="submit" value="登録">
                 <a class="btn" href="{{ route('scores.index') }}">一覧へ戻る</a>
             </div>
+            <div class="clear"></div>
         </form>
     </div>
 
